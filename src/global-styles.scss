@@ -1,0 +1,33 @@
+html{
+    font-family: Alata;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+$rich-black: #040f0f;
+$platinum: #e5e7e6;
+
+
+@font-face {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+    url('/fonts/Alata-Regular.eot') format('embedded-opentype'),
+    url('/fonts/Alata-Regular.svg') format('svg'),
+    url('/fonts/Alata-Regular.ttf') format('truetype'),
+    url('/fonts/Alata-Regular.woff') format('woff'),
+    url('/fonts/Alata-Regular.woff2') format('woff2');
+}
