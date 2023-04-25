@@ -4,21 +4,6 @@
     import { onMount, tick } from "svelte";
     let projects = [
         {
-            title: "Livland homepage",
-            picture: [
-                "assets/livland/livland-web.webp",
-                "assets/livland/livland-mobile.webp",
-            ],
-            stackTop: [
-                "Wordpress CMS",
-                "Custom Design",
-                "ACF Extended",
-                "SCSS",
-            ],
-            stackBottom: ["SwiperJS", "Responsive", "Multilang"],
-            anchorLink: "https://www.livland.lv",
-        },
-        {
             title: "I un M serviss webshop",
             picture: [
                 "assets/iunm/iunm-desktop-700x455px.webp",
